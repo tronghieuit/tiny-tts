@@ -1,5 +1,5 @@
 include README.md
 include TinyTTS.png
 recursive-include text *.rep *.pickle
-recursive-include checkpoints *.pth
+recursive-include checkpoints *.safetensors *.pth
 recursive-include text/english_utils *.py
