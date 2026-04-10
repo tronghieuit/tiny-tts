@@ -11,7 +11,7 @@ setup(
     include_package_data=True,
     package_data={
         "tiny_tts.text": ["cmudict.rep", "cmudict_cache.pickle"],
-        "tiny_tts.checkpoints": ["*.pth"],
+        "tiny_tts.checkpoints": ["*.safetensors", "*.pth"],
     },
     python_requires=">=3.8",
     install_requires=[
@@ -22,9 +22,10 @@ setup(
         "transformers",
         "numba",
         "huggingface_hub",
+        "safetensors",
     ],
     entry_points={
-        "console_scripts": [
+        "console_scripts":[
             "tiny-tts=tiny_tts.infer:main",
         ],
     },

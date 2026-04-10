@@ -7,3 +7,4 @@ nltk
 numba
 gradio
 huggingface_hub
+safetensors
