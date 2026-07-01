@@ -75,7 +75,10 @@ pip install torch torchaudio soundfile g2p-en transformers numba
 
 ---
 
-## Quick Start
+## Quick Start (Python)
+
+> Installed from npm? The CLI takes different flags there.
+See [CLI (Node.js)](#cli-nodejs) below.
 
 ### Basic inference
 
